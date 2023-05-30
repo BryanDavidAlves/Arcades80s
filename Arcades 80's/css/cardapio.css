@@ -14,6 +14,7 @@
     display: flex;
     justify-content: space-evenly;
     margin-top: 5%;
+    flex-wrap: wrap;
 }
 .card-lanche {
     background-color: #000000bb;
@@ -33,6 +34,7 @@
  }
   
 .card-lanche h3 {
+    text-shadow: 0px 0px 0px white;
     color: white;
     font-size: 20px;
     margin-top: 20px;
@@ -86,13 +88,13 @@ a{
     display: flex;
     justify-content: space-evenly;
     margin-top: 5%;
+    flex-wrap: wrap;
 }
 .card-drinks {
     background-color: #000000bb;
     border-radius: 10%;
     text-align: center;
     width: 18rem;
-
     height: 25rem;
     transition: 0.5s transform cubic-bezier(0.42, 0, 0.65, 1.7);
 }
@@ -106,6 +108,7 @@ a{
  }
   
 .card-drinks h3 {
+    text-shadow: 0px 0px 0px white;
     color: white;
     font-size: 20px;
     margin-top: 20px;
@@ -167,6 +170,7 @@ a{
     display: flex;
     justify-content: space-evenly;
     margin-top: 5%;
+    flex-wrap: wrap;
 }
 .card-combos {
     background-color: #000000bb;
@@ -187,6 +191,7 @@ a{
  }
   
 .card-combos h3 {
+    text-shadow: 0px 0px 0px white;
     color: white;
     font-size: 20px;
     margin-top: 20px;

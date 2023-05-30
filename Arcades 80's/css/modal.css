@@ -26,6 +26,7 @@
     font-size: 2rem;
     margin-top: 5%;
     font-family: 'Chakra Petch', sans-serif;
+    text-shadow: 0px 0px 0px white;
 }
 .modal p{
     text-align: justify;
