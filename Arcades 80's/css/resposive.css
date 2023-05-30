@@ -2,12 +2,15 @@
 @media(min-width: 2000px) and (max-width:2500px){
 /*NAVBAR*/
 header{
-    padding: 1.5%;
+    padding: 1%;
     width: 100%;
+ 
 }
 
+
 nav .itens-nav{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    margin-top: -4%;
 }
 /*FIM NAV BAR */
 
@@ -23,6 +26,9 @@ nav .itens-nav{
     border: 1px solid rgb(255, 0, 255);
     box-shadow: 0px 0px 10px 8px  rgb(67, 1, 67);
 }
+.titulo-lanche{
+    font-size: 50px;
+}
 
 .card-drinks {
     transform: scale(1.3);
@@ -31,12 +37,6 @@ nav .itens-nav{
 .card-combos {
     transform: scale(1.3);
 }
-
-
-
-
-
-
 .card-lanche button {
     transform: scale(1.3);
 }
@@ -51,13 +51,16 @@ nav .itens-nav{
 
 /*MODAL*/
 .janela-modal p{
-    font-size: x-large;
+    font-size: 1.5rem;
 
 }
+.janela-modal.modal h3{
+    font-size: 2rem;
+}
 .modal ul li{
-    font-size: xx-large;
+    
     margin-left: 10%;
-    margin-top: 20%;
+    margin-top: 10%;
     
 }
 .modal ul .texto{
@@ -68,6 +71,11 @@ nav .itens-nav{
 }
 
 }
+.janela-modal.abrir{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /*FIM MODAL*/
 
 /*SOBRE NOS*/
@@ -75,21 +83,51 @@ nav .itens-nav{
 .sobre-nos .sobre{
     margin-top: auto;
     margin-bottom: auto;
+    padding: 5%;
     
 }
 .sobre-nos .titulo-sobre{
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
-.sobre-nos p{
-    font-size: 1.5rem;
+.sobre-nos .sobre p{
+    font-size: 1.4rem;
     line-height: 2.0rem;
+    margin-left: 12%;
+    margin-right: 12%;
+    text-align: justify;
+    text-shadow: 0px 0px 10px rgba(255, 0, 255, 0.575);
 }
+
 
 /*CONTATOS*/
 .contato{
-    transform: scale(1.3);
+    transform: scale(1.2);
 }
 .titulo-contato{
     font-size: 3rem;
-    margin-top: 50%;
+    margin-top: 15%;
 }
+.contato .box-contato button{
+    padding: 2%;
+}
+
+/*FIM CARDAPIO*/
+
+/*INICIO FOOTER*/
+footer{
+    color: white;
+    height:auto;
+    background-color: #000;
+    margin-top: 10%;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    box-shadow: 0px 25px 60px 15px  rgb(67, 1, 67);
+    border-top: 1px solid rgb(255, 0, 255);
+}
+footer img{
+    width: 10px;
+
+}
+
+

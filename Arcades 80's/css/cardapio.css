@@ -1,7 +1,7 @@
 .titulo-lanche{
     text-shadow: 0px 0px 20px rgb(255, 0, 255);
     color: #fff;
-    font-size: 25px;
+    font-size: 2.5rem;
     font-weight: bold;
     font-family: 'Chakra Petch', sans-serif;
     margin-top:10%;
@@ -155,7 +155,7 @@ a{
 .titulo-drinks{
     text-shadow: 0px 0px 20px rgb(0, 0, 255);
     color: #fff;
-    font-size: 25px;
+    font-size: 2.5rem;
     font-weight: bold;
     font-family: 'Chakra Petch', sans-serif;
     margin-top: 8%;
@@ -237,7 +237,7 @@ a{
 .titulo-combos{
     text-shadow: 0px 0px 20px rgb(255, 0, 51);
     color: #fff;
-    font-size: 25px;
+    font-size: 2.5rem;
     font-weight: 700;
     font-family: 'Chakra Petch', sans-serif;
     margin-top: 8%;
