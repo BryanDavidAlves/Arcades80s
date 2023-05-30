@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="img/arcades-logo.png" >
+    <title>Arcades 80's</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/resposive.css">
+    <link rel="stylesheet" href="css/nav-bar.css">
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/sobre-nós.css">
+    <link rel="stylesheet" href="css/cardapio.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/contato.css">
+    <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
+    
+</head>
+<body>
+    <header>
+      <img src="img/arcades-logo.png" alt="logo empresa" width="90px">
+        <nav>
+
+            <a href="" class="itens-nav" >Inicio </a>
+            <a href="" class="itens-nav">Sobre nós</a>
+            <a href="" class="itens-nav">Cardápio</a>
+            <a href="" class="itens-nav">Contatos</a>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <div class="carousel">
+            <img  src="./img/carrosel1.jpg" class="carousel-image">
+            <img src="./img/carrosel2.jpg" class="carousel-image">
+            <img src="./img/caarrosel3.jpg" class="carousel-image">
+          </div>
+
+        <!--CARDAPIO-->
+
+        <section class="cardapio">
+
+            <h3 class="titulo-lanche">LANCHES</h3>
+
+            <div class="lanches1">
+                <div class="card-lanche">
+                    <img class="img" src="img/lanche1.jpg" alt="Imagem do card">
+                    <h3>Big Mac</h3>
+                    <button onclick="abrirModal()" type="submit">VER MAIS</button>
+                </div>
+    
+                <div class="card-lanche">
+                    <img class="img" src="img/lanche2.jpg" alt="Imagem do card">
+                    <h3>Big Chesse</h3>
+                    <button onclick="abrirModal2()" type="submit">VER MAIS</button>
+                </div>
+               
+                <div class="card-lanche">
+                  <img class="img" src="img/lanche3.jpg" alt="Imagem do card">
+                  <h3>Big Cheddar</h3>
+                  <button onclick="abrirModal3()" type="submit">VER MAIS</button>
+                </div>
+
+            </div>
+
+            <h3 class="titulo-drinks">DRINKS</h3>
+            <div class="drinks">
+              <div class="card-drinks">
+                  <img class="img" src="img/drink1.jpg" alt="Imagem do card">
+                  <h3> Gin com morango e zimbro</h3>
+                  <button onclick="abrirModal4()" type="submit">VER MAIS</button>
+              </div>
+  
+              <div class="card-drinks">
+                  <img class="img" src="img/drink4.jpg" alt="Imagem do card">
+                  <h3>Caipirinha de Morango</h3>
+                  <button onclick="abrirModal5()" type="submit">VER MAIS</button>
+              </div>
+             
+              <div class="card-drinks">
+                <img class="img" src="img/drink2.jpg" alt="Imagem do card">
+                <h3>Orange Dream</h3>
+                <button onclick="abrirModal6()" type="submit">VER MAIS</button>
+              </div>
+
+          </div>
+
+          <h3 class="titulo-combos">COMBOS</h3>
+            <div class="combos">
+              <div class="card-combos">
+                <img class="img" src="img/combo1.jpg" alt="Imagem do card">
+                <h3>Combo de Red Label</h3>
+                <button onclick="abrirModal7()" type="submit">VER MAIS</button>
+            </div>
+  
+              <div class="card-combos">
+                  <img class="img" src="img/combo2.jpg" alt="Imagem do card">
+                  <h3>Combo de Jack Daniels</h3>
+                  <button onclick="abrirModal8()" type="submit">VER MAIS</button>
+              </div>
+             
+              <div class="card-combos">
+                <img class="img" src="img/combo3.jpg" alt="Imagem do card">
+                <h3>Combo de Gold Label</h3>
+                <button onclick="abrirModal9()" type="submit">VER MAIS</button>
+              </div>
+
+          </div>
+        </section>
+
+
+<!--INICIO MODAL-->
+    <section class="janela-modal" id="janela-modal">
+        <div class="modal">
+            <button type="submit" class="fechar" id="fechar">X</button>
+            <h3>Big Mac</h3>
+            <div>
+            <img src="img/lanche1.jpg" alt="">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa odio nam in ut neque corporis nemo doloribus maxime provident. Repellat iste deserunt laboriosam. Vel perspiciatis cupiditate nulla sunt et iure.</p>
+          </div>
+        </div>
+    </section>
+
+  
+    <section class="janela-modal" id="janela-modal2">
+        <div class="modal">
+            <button type="submit" class="fechar" id="fechar">X</button>
+            <h3>Big Mac</h3>
+            <div>
+          <img src="img/lanche2.jpg" alt="">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa odio nam in ut neque corporis nemo doloribus maxime provident. Repellat iste deserunt laboriosam. Vel perspiciatis cupiditate nulla sunt et iure.</p>
+          </div>
+        </div>
+    </section>
+
+    <section class="janela-modal" id="janela-modal3">
+
+        <div class="modal">
+          <button type="submit" class="fechar" id="fechar">X</button>
+          <h3>Big Mac</h3>
+          <div>
+          <img src="img/lanche3.jpg" alt="">
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa odio nam in ut neque corporis nemo doloribus maxime provident. Repellat iste deserunt laboriosam. Vel perspiciatis cupiditate nulla sunt et iure.</p>
+        </div>
+        </div>
+    </section>
+
+
+
+    <section class="janela-modal" id="janela-modal4">
+      <div class="modal">
+          <button type="submit" class="fechar" id="fechar">X</button>
+          <h3>Gin com morango e zimbro</h3>
+          <div>
+          <img src="img/drink1.jpg" alt="">
+          <ul>
+            <li>Gin de morango Beefeater</li>
+            <li>Morangos</li>
+            <li>Grãos de zimbro</li>
+            <li>Água tônica</li>
+            <li>alecrim (Opcional)</li>
+          </ul>
+        </div>
+      </div>
+  </section>
+
+
+  <section class="janela-modal" id="janela-modal5">
+      <div class="modal">
+          <button type="submit" class="fechar" id="fechar">X</button>
+          <h3>Caipirinha de Morango</h3>
+          <div>
+        <img src="img/drink4.jpg" alt="">
+        <ul>
+          <li>Vodka Sminorff</li>
+          <li>Morangos</li>
+          <li>Gelo</li>
+        </ul>
+        </div>
+      </div>
+  </section>
+
+  <section class="janela-modal" id="janela-modal6">
+
+      <div class="modal">
+        <button type="submit" class="fechar" id="fechar">X</button>
+        <h3>Orange Dream</h3>
+        <div>
+        <img src="img/drink2.jpg" alt="">
+        <ul>
+          <li>Gin Beefeater</li>
+          <li>Laranja Bahia</li>
+          <li>Água tônica</li>
+          <li>Cravo (Opcional)</li>
+        </ul>
+      </div>
+      </div>
+  </section>
+
+
+
+  <section class="janela-modal" id="janela-modal7">
+    <div class="modal">
+        <button type="submit" class="fechar" id="fechar">X</button>
+        <h3>Combo de Red Label</h3>
+        <div>
+      <img src="img/combo1.jpg" alt="">
+      <ul>
+        <li>Uma garrafa Red Labael</li>
+        <li>4 RedBull </li>
+        <li>4 Gelos de Coco ou Maracujá</li>
+        <li>Copos</li>
+      </ul>
+      </div>
+    </div>
+</section>
+
+
+  <section class="janela-modal" id="janela-modal8">
+    <div class="modal">
+        <button type="submit" class="fechar" id="fechar">X</button>
+        <h3>Combo de Jack Daniels</h3>
+        <div>
+      <img src="img/combo2.jpg" alt="">
+      <ul>
+        <li>Uma garrafa Jack Daniels</li>
+        <li>4 RedBull </li>
+        <li>4 Gelos de Coco ou Maracujá</li>
+        <li>Copos</li>
+      </ul>
+      </div>
+    </div>
+</section>
+
+
+
+<section class="janela-modal" id="janela-modal9">
+    <div class="modal">
+        <button type="submit" class="fechar" id="fechar">X</button>
+        <h3>Combo de Gold Label</h3>
+        <div>
+      <img src="img/combo3.jpg" alt="">
+      <ul>
+        <li>Uma garrafa Gold Labael</li>
+        <li>4 RedBull </li>
+        <li>4 Gelos de Coco ou Maracujá</li>
+        <li>Copos</li>
+      </ul>
+      </div>
+    </div>
+</section>
+
+<section class="janela-modal" id="janela-modal9">
+
+    <div class="modal">
+      <button type="submit" class="fechar" id="fechar">X</button>
+      <h3>Big Mac</h3>
+      <div>
+      <img src="img/lanche3.jpg" alt="">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa odio nam in ut neque corporis nemo doloribus maxime provident. Repellat iste deserunt laboriosam. Vel perspiciatis cupiditate nulla sunt et iure.</p>
+    </div>
+    </div>
+</section>
+
+
+<!--FIM MODAL-->
+    <section class="sobre-nos">
+      <div class="sobre">
+          <h2 class="titulo-sobre">Sobre nós</h2><br>
+          <p>
+            Somos uma empresa fundada por dois irmãos, nos chamamos Rodrigo e Rogério, nascemos em uma família classe
+            média na Vila Mariana na cidade de São Paulo, e ao pensar em criar um novo negócio, decidimos juntar nossa 
+            paixão em comum: o estilo retrô em combinação com a culinária, resultando em um bar com temática dos anos 1980. 
+            O Arcade's Bar 80's é um bar temático dos anos 80, trazendo memórias de infância para aqueles que viveram nessa 
+            época, tem como referência à cultura pop e new wave, também contendo diversos fliperamas e jogos para a diversão e 
+            passatempo dos clientes; o diferencial é a decoração do ambiente, contendo elementos vintage da época e luzes neon,  
+            também somos conhecidos pela qualidade de nossos produtos tais quais: hambúrgueres artesanais, drinks, bebidas e cervejas.
+          </p>
+     
+      </div>
+      <!--<img src="img/ArcadesBar.png-removebg-preview.png" alt="">-->
+  </section>
+
+
+  <!--INICIO CONTATOS-->
+  <h3 >CONTATOS</h3>
+  <section class="contato">
+    <img src="./img/animation_640_li9l0tl8.gif" alt="">
+    
+    <div class="box-contato">
+    <label for="">Nome</label>
+    <input type="text" name="nome" id="nome" placeholder="Seu Nome">
+    <br><br>
+    <label for="">Email</label>
+    <input type="email" name="email" id="email" placeholder="Seu Email">
+    <br><br>
+    <label for="">Telefone</label>
+    <input type="tel" name="telefone" id="telefone">
+    <br><br>
+    <button type="submit"><a href="index.html"> Enviar </a></button>
+   </div>
+
+  <img class="img-cerveja" src="./img/cerveja.gif" alt="">
+  
+  
+  </section>
+<!--FIM CONTATOS-->
+</main>
+
+<footer>
+  
+</footer>
+    <script src="script.js"></script>
+
+    <!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>-->
+</body>
+</html>

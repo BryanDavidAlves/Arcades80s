@@ -1,0 +1,22 @@
+header{
+    background-color: #000;
+    
+}
+header img{
+    margin-left: 3%;
+    color: white;
+}
+nav{
+    justify-content: end;
+    display: flex;
+}
+.itens-nav{
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-right: 3%;
+    text-decoration: none;
+    font-style: normal;
+    color:white ;
+    margin-top: -50px;
+    font-size: 0.8rem;
+}

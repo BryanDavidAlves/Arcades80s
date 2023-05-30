@@ -1,0 +1,239 @@
+.titulo-lanche{
+    text-shadow: 0px 0px 20px rgb(255, 0, 255);
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Chakra Petch', sans-serif;
+    margin-top:10%;
+}
+.cardapio{
+    text-align: center;
+
+}
+.lanches1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+.card-lanche {
+    background-color: #000000bb;
+    border-radius: 10%;
+    text-align: center;
+    width: 18rem;
+    height: 25rem;
+    transition: 0.5s transform cubic-bezier(0.42, 0, 0.65, 1.7);
+}
+  
+.card-lanche .img {
+    border-radius: 10%;
+    height: 15rem;
+    width: 15rem;
+    object-fit: cover;
+    margin-top: 5%;
+ }
+  
+.card-lanche h3 {
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: 'Chakra Petch', sans-serif;
+
+}
+  
+.card-lanche p {
+    color: #666;
+    font-size: 20px;
+    margin-top: 10px;
+}
+  
+a{
+    text-decoration: none;
+}
+
+
+.card-lanche:hover{
+    background-color: #0000008b;
+    transition: 0.5s transform  cubic-bezier(1,-0.01,0,1.01) ease-in-out ;
+    margin-bottom: 0%;
+    transform: scale(0.96);
+    border: 1px solid rgb(255, 0, 255);
+    box-shadow: 0px 0px 10px 8px  rgb(67, 1, 67);
+}
+.card-lanche button{
+    margin-top: 10%;
+    padding: 2%;
+    font-family: 'Chakra Petch', sans-serif;
+    background-color: #000000d7;
+    color: #fff;
+    font-size: 15px;
+    border-radius:10px ;
+    border: none;
+    padding: 10px;
+}
+.card-lanche button:hover{
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+.drinks{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+.card-drinks {
+    background-color: #000000bb;
+    border-radius: 10%;
+    text-align: center;
+    width: 18rem;
+
+    height: 25rem;
+    transition: 0.5s transform cubic-bezier(0.42, 0, 0.65, 1.7);
+}
+  
+.card-drinks .img {
+    border-radius: 10%;
+    height: 15rem;
+    width: 15rem;
+    object-fit: cover;
+    margin-top: 5%;
+ }
+  
+.card-drinks h3 {
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: 'Chakra Petch', sans-serif;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+  
+.card-drinks p {
+    color: #666;
+    font-size: 20px;
+    margin-top: 10px;
+}
+  
+a{
+    text-decoration: none;
+}
+
+
+.card-drinks:hover{
+    background-color: #0000008b;
+    transition: 0.5s transform  cubic-bezier(1,-0.01,0,1.01) ease-in-out ;
+    margin-bottom: 0%;
+    transform: scale(0.96);
+    border: 1px solid rgb(0, 26, 255);
+    box-shadow: 0px 0px 10px 8px rgb(0, 1, 67);
+}
+.card-drinks button{
+    margin-top: 10%;
+    padding: 2%;
+    font-family: 'Chakra Petch', sans-serif;
+    background-color: #000000d7;
+    color: #fff;
+    font-size: 15px;
+    border-radius:10px ;
+    border: none;
+    padding: 10px;
+}
+.card-drinks button:hover{
+    cursor: pointer;
+
+}
+
+.titulo-drinks{
+    text-shadow: 0px 0px 20px rgb(0, 0, 255);
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Chakra Petch', sans-serif;
+    margin-top: 8%;
+}
+
+
+
+
+
+
+.combos{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+.card-combos {
+    background-color: #000000bb;
+    border-radius: 10%;
+    text-align: center;
+    width: 18rem;
+
+    height: 25rem;
+    transition: 0.5s transform cubic-bezier(0.42, 0, 0.65, 1.7);
+}
+  
+.card-combos .img {
+    border-radius: 10%;
+    height: 15rem;
+    width: 15rem;
+    object-fit: cover;
+    margin-top: 5%;
+ }
+  
+.card-combos h3 {
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: 'Chakra Petch', sans-serif;
+
+}
+  
+.card-combos p {
+    color: #666;
+    font-size: 20px;
+    margin-top: 10px;
+}
+  
+a{
+    text-decoration: none;
+}
+
+
+.card-combos:hover{
+    background-color: #0000008b;
+    transition: 0.5s transform  cubic-bezier(1,-0.01,0,1.01) ease-in-out ;
+    margin-bottom: 0%;
+    transform: scale(0.96);
+    border: 1px solid rgb(255, 0, 51);
+    box-shadow: 0px 0px 10px 8px rgb(67, 0, 7);
+}
+.card-combos button{
+    margin-top: 10%;
+    padding: 2%;
+    font-family: 'Chakra Petch', sans-serif;
+    background-color: #000000d7;
+    color: #fff;
+    font-size: 15px;
+    border-radius:10px ;
+    border: none;
+    padding: 10px;
+}
+.card-combos button:hover{
+    cursor: pointer;
+
+}
+
+.titulo-combos{
+    text-shadow: 0px 0px 20px rgb(255, 0, 51);
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Chakra Petch', sans-serif;
+    margin-top: 8%;
+}

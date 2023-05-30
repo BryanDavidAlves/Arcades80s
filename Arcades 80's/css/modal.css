@@ -1,0 +1,129 @@
+.janela-modal{
+    width: 100vw;
+    height: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: -10%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.modal{
+    width: 60%;
+    height: 60%;
+    background-color: rgba(45, 45, 46, 0.429);
+    backdrop-filter: blur(10px);
+    color: white;
+    border-radius: 2%;
+    border: 0;
+    font-family: 'Chakra Petch', sans-serif;
+
+}
+.modal h3{
+    font-weight: 600;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 5%;
+    font-family: 'Chakra Petch', sans-serif;
+}
+.modal p{
+    text-align: justify;
+    margin-top: 5%;
+    margin-left:5%;
+    margin-right: 5%;
+}
+.modal li{
+    font-family: 'Chakra Petch', sans-serif;
+    margin-top: 5%;
+    margin-left:8%;
+    margin-right: 5%;
+    list-style: none;
+    font-weight: 700;
+    font-size: 1.2rem;
+    width: 100%;
+}
+.fechar{
+    border: 0;
+
+   background-color: transparent;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+
+}
+.fechar:hover{
+    border: 0;
+    border-radius: 10%;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+
+}
+.janela-modal.abrir{
+    display: flex;
+    margin-top: 3%;
+    position: fixed;
+    
+}
+.abrir{
+    animation: animar 0.5s ease-in-out;
+
+}
+#modal-body{
+height: 60vh;
+margin-top: 5%;
+
+}
+#card-body{
+    background-color:#000000c3;
+
+
+}
+.descricao-modal{
+    font-size: 10px;
+    margin-top: 5%;
+  
+    
+}
+#imagem-modal{
+
+   border-radius: 15%;
+}
+.container-card{
+    display: flex;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+}
+@keyframes animar {
+    0%{
+        opacity: 0;
+        transform: translate3d(0,-30px,0);
+    }    
+    100%{
+        opacity: 1;
+        transform: translate3d(0,0,0);
+        background-color: transparent;
+    }
+}
+.modal img{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0% 0% 5% 5%;
+    border-radius:10% ;
+}
+.modal div{
+    display: flex;
+}
