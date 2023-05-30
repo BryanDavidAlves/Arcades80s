@@ -43,6 +43,16 @@
     font-size: 1.2rem;
     width: 100%;
 }
+.modal .texto{
+    font-family: 'Chakra Petch', sans-serif;
+    margin-top: 5%;
+    margin-left:8%;
+    margin-right: 5%;
+    list-style: none;
+    font-weight: 700;
+    font-size: 1.2rem;
+    width: 100%;
+}
 .fechar{
     border: 0;
 
@@ -71,7 +81,7 @@
 }
 .janela-modal.abrir{
     display: flex;
-    margin-top: 3%;
+    margin-top: 6%;
     position: fixed;
     
 }
