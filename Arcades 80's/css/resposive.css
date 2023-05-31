@@ -57,14 +57,14 @@ nav .itens-nav{
 .janela-modal.modal h3{
     font-size: 2rem;
 }
-.modal ul li{
-    
+.janela-modal .modal ul li{
+    font-size: 2rem;
     margin-left: 10%;
-    margin-top: 10%;
+    margin-top: 1%;
     
 }
 .modal ul .texto{
-    font-size: xx-large;
+
     margin-left: 10%;
     margin-top: 40%;
     

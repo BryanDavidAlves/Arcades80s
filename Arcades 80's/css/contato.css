@@ -3,7 +3,7 @@
     border-radius: 5%;
     border: 1px solid rgb(0, 26, 255);
     box-shadow: 0px 0px 10px 8px rgb(0, 1, 67);
-    margin-top: 5%;
+    margin-top: 6%;
     width: 50%;
     position: relative;
     background-color:#000000c3;
@@ -60,15 +60,8 @@
     
 }
 .contato button:hover{
-    color: #fff;
-    font-size: 15px;
-    border-radius:10px ;
     border: none;
-    padding: 10px;
-    margin-left: 50%;
-    margin-right: 50%;
-    transform: translate(-50%,-50%);
-    margin-top: 5%;
+
     cursor: pointer;
     box-shadow: 0px 0px 10px 3px   rgb(3, 19, 162);
 }
@@ -106,4 +99,20 @@
     display: flex;
     margin-bottom: 5%;
 
+}
+textarea{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 1rem;
+    border-radius: 5%;
+    padding: 1%;
+    margin-top: 3%;
+    background-color:#000000c3;
+    border: 1px solid rgb(0, 26, 255);
+    box-shadow: 0px 0px 10px 3px   rgb(3, 19, 162);
+    color: white;
+    border-radius: 5px;
+    width: 60%;
 }
